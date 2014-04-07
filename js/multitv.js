@@ -292,9 +292,9 @@
 			var thumbId = name.replace(/^(.*?)(\d*)$/, '#$1preview$2');
 			if (thumbName !== '') {
 				if (_this.options.kcfinder) {
-					$(thumbId, el).html('<img src="../' + (thumbPath.join('/') + '/').replace('/images/', '/' + _this.options.thumbs + 'images/') + thumbName + '" />');
+					$(thumbId, el).html('<img src="..//' + (thumbPath.join('/') + '/').replace('/images/', '/' + _this.options.thumbs + 'images/') + thumbName + '" />');
 				} else {
-					$(thumbId, el).html('<img src="../' + thumbPath.join('/') + '/.thumb_' + thumbName + '" />');
+					$(thumbId, el).html('<img src="..//' + thumbPath.join('/') + '/.thumb_' + thumbName + '" />');
 				}
 			} else {
 				$(thumbId, el).html('');
@@ -727,9 +727,9 @@
 			var thumbId = name.replace(/^(.*?)(\d*)$/, '#$1preview$2');
 			if (thumbName !== '') {
 				if (_this.options.kcfinder) {
-					$(thumbId, el).html('<img src="../' + (thumbPath.join('/') + '/').replace('/images/', '/' + _this.options.thumbs + 'images/') + thumbName + '" />');
+					$(thumbId, el).html('<img src="..//' + (thumbPath.join('/') + '/').replace('/images/', '/' + _this.options.thumbs + 'images/') + thumbName + '" />');
 				} else {
-					$(thumbId, el).html('<img src="../' + thumbPath.join('/') + '/.thumb_' + thumbName + '" />');
+					$(thumbId, el).html('<img src="..//' + thumbPath.join('/') + '/.thumb_' + thumbName + '" />');
 				}
 			} else {
 				$(thumbId, el).html('');
